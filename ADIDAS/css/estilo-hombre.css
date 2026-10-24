@@ -1,0 +1,65 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+display: flex;
+flex-direction: row;
+width: 80%;
+max-width: 1200px;
+background-color: white;
+overflow: hidden;
+
+}
+.image-contaner{
+  flex: 1;
+
+
+}
+.image-contaner img{
+     width: 10%;
+     height: auto;
+     display: block;
+}
+.text-container{
+   flex: 1;
+   padding: 40px;
+   flex-direction: column;
+   justify-content: center;
+ }
+ .text-container h2{
+    font-size: 2rem;
+    color: red;
+    margin-bottom: 20px;
+ }  
+ .text-container.p{
+    font-size: 1rem;
+    color: gray;
+    line-height: 1.6;
+
+ }
+/*nota: COLOCAR SITIO WEB RESPONSIVE*/
+@media (max-width="768") {
+
+.container{
+
+    flex-direction: column;
+
+}
+.image-contaner,.container{
+   flex: nome;
+   width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
